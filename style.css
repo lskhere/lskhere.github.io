@@ -19,6 +19,7 @@ a:hover, a:active {
 /*index page*/
 .bg-blue {
   background-color: #57CCFF; 
+/*  background-color: #ffffff;*/
   padding: 50px;
 }
 .bg-white {
@@ -34,7 +35,7 @@ a:hover, a:active {
   color:#FF4D5C;
 }*/
 .hover{
-  opacity:0.8;
+  opacity:0.9;
 }
 .hover:hover {
   opacity:1;
@@ -42,6 +43,12 @@ a:hover, a:active {
   border-color: #57CCFF;
   border-radius: 3px;
 }
+
+.hover:hover .text-content{
+  opacity:1;
+
+}
+
 /*.thumbnail-section{
   padding:5rem;
 }
@@ -49,7 +56,7 @@ a:hover, a:active {
   padding:3rem;
 }*/
 .thumbnailicon {
-  padding:10px;
+  padding:0px;
   width:250px;
   height:auto;
 }
