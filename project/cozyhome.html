@@ -1,78 +1,80 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Cozy Home</title>
+  <title>Cozy Home | Suki Lau Illustration</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <!--font-->
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
   <!--Bootstrap-->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
   <!--css file-->
   <link rel="stylesheet" type="text/css" href="../style.css">
+  <!-- js file -->  
+  <script src="script.js"></script>
   <!--browser icon-->
-  <link rel="icon" href="../img/icon.png">
-
-
+  <link rel="icon" href="img/icon.png">
 </head>
-<body id="home">
+<body id="home" data-spy="scroll" data-target=".navbar" data-offset="50">
+
 <!-- Navbar -->
-<div id="about" class="container-fluid bg-blue text-center">
-  <a href="prettywoman.html"><span class="glyphicon glyphicon-chevron-left"></span></a>
-  <a href="../index.html"><img src="../img/home.svg" class="img-responsive hover home-icon" alt="image"></a>
-  <a href="jungle.html"><span class="glyphicon glyphicon-chevron-right"></span></a>
-</div>
-</div>
+<nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="../index.html">SUKI LAU</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">  
+        <li><a href="../index.html#archive">ARCHIVE</a></li>
+        <li><a href="../index.html#about">ABOUT</a></li> 
+      </ul>
+    </div>
+  </div>
+</nav>
 
 
-
-<!-- Content-->
+<!-- Container (Artwork)-->
 <div class="container-fluid bg-white text-center" >
-  <h2 class="gallerytitle">Cozy Home</h2><br/>
+  
+  <h2 class="gallerytitle">Cozy Home</h2>
+  <a href="jungle.html">Previous Project</a> &nbsp;&nbsp;&nbsp;&nbsp;<a href="doodle.html">Next Project</a>
+  <br/> 
+  <br/>
+  <br/>
+  
   <div class="row"> 
     <div class="col-sm-12 description">
-      <p>2016 / Cozy Home<br/>
+      <p>Illustration / Interior<br/>
       A series of illustrations of cozy home in ambiguous apartments.</p>
     </div>
   </div>
   <div class="row gallery">
     <div class="col-sm-12">
       <img src="../img/cozyhome/cozyhome01.jpg" class="img-responsive artwork" alt="image"/>
+    </div>
+    <div class="col-sm-12">
       <img src="../img/cozyhome/cozyhome03.jpg" class="img-responsive artwork" alt="image"/>
+    </div>
+    <div class="col-sm-12">
       <img src="../img/cozyhome/cozyhome02.jpg" class="img-responsive artwork" alt="image"/>
     </div>
   </div>
-
 </div>
 
-
-
-<!--Footer (Contact)-->
-<footer id="contact" class="container-fluid bg-blue" style="text-align:left">
-<div class="row">
-  <div class="col-sm-6" style="padding:0px 50px">
-    <h3 style="color:#ffffff">Contact</h3>
-    <p>Please feel free to get in touch for any collaborations, commissions or just to say hi!</p>
-    <a href="mailto:urbancatcher@gmail.com"><img src="../img/socialicon/email.png" class="img-responsive hover" style="display:inline" alt="image" width="80px" height=auto></a>
-    <a href="https://www.facebook.com/urbancatcherhk" target="_blank"><img src="../img/socialicon/fb.png" class="img-responsive hover" style="display:inline" alt="image" width="80px" height=auto></a>
-    <a href="https://www.instagram.com/urbancatcher/" target="_blank"><img src="../img/socialicon/ig.png" class="img-responsive hover" style="display:inline" alt="image" width="80px" height=auto></a>
-    <a href="https://www.pinterest.com/urbancatcherhk" target="_blank"><img src="../img/socialicon/pinterest.png" class="img-responsive hover" style="display:inline" alt="image" width="80px" height=auto></a>
-<!--     <a href="https://www.flickr.com/photos/urbancatcher" target="_blank"><img src="../img/socialicon/flickr.png" class="img-responsive hover" style="display:inline" alt="oops.." width="80px" height=auto></a> -->
-  </div>
-  <div class="col-sm-6" style="padding:0px 50px">
-    <h3 style="color:#ffffff">Store</h3>
-    <p>Urbancatcher's products are available at the following store. For sales of original artwork, please contact urbancatcher@gmail.com</p>
-    <a href=#><img src="../img/socialicon/s6.png" class="img-responsive margin hover" style="width:80px" alt="image"></a>
-  </div>
+<!-- Container (Contact)-->
+<div id="contact" class="container-fluid bg-pink text-center">
+  <p>Do you have a sweet project? Feel free to get in touch for any collaboration or just to say hello!</p>
+  <p class="text-center"><a href="mailto:lausuiki@gmail.com">EMAIL</a> / <a href="https://instagram.com/lskhere" target="_blank">INSTAGRAM</a> / <a href="https://www.facebook.com/lskhere" target="_blank">FACEBOOK</a> / <a href="https://twitter.com/lskhere" target="_blank">TWITTER</a> / <a href="https://www.pinterest.com/lskhere/" target="_blank">PINTEREST</a> / <a href="https://www.flickr.com/photos/lskhere" target="_blank">FLICKR</a></p>
+  <br/>
+  <a class="up-arrow" href="#home" data-toggle="tooltip" title="TO TOP"><span class="glyphicon glyphicon-chevron-up"></span></a>
 </div>
-<br/>
-<div class="row text-center">
-  <a href="#home"><span class="glyphicon glyphicon-chevron-up"></span></a>
-</div>
-</footer>
 
 
 </body>
 </html>
+
