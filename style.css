@@ -1,6 +1,6 @@
 body {
+  font-family: Helvetica,arial,sans-serif;
 /*  font-family: 'Open Sans', sans-serif;*/
-      font-family: Helvetica,arial,sans-serif;
 /*  font-family: 'Droid Sans', sans-serif;*/
 /*  font-family: 'Droid Sans Mono', monospace;*/
 /*  font-family: 'Cutive Mono', monospace;*/
@@ -9,10 +9,31 @@ body {
 /*font-family: 'Alegreya Sans', sans-serif;*/
 /*font-family: 'Merriweather Sans', sans-serif;*/
   line-height: 1.8;
-  color: #110631;
-  font-size: 15px;
+/*  color:#110631;*/ /*darkest navy blue*/
+  color:#1C419F;  /*dark navy blue */
+  font-size: 16px;
 }
 
+
+
+/*index page*/
+/*.bg-blue {
+  background-color: #57CCFF; 
+  padding: 150px 50px;
+}*/
+.bg-grey {
+  background-color: #f0f0f0;
+  padding: 150px 0px;
+}
+.bg-pink {
+  background-color: #FF4D5C; 
+  padding: 150px 50px;
+  color:#110631; 
+}
+.bg-white {
+  background-color: #ffffff;
+  padding:150px 0px;
+}
 
 a, a:link, a:visited  {
   text-decoration: none;
@@ -22,33 +43,38 @@ a:hover, a:active {
   text-decoration: none;
   color:#FF4D5C;
 }
-
-/*index page*/
-.bg-blue {
-  background-color: #57CCFF; 
-  padding: 50px 0px;
-}
-.bg-pink {
-  background-color: #FF4D5C; 
-  padding: 50px 0px;
-}
-.bg-white {
-  background-color: #ffffff;
-  padding:50px 0px;
-}
 .bg-white a, .bg-white a:link, .bg-white a:visited  {
-  text-decoration: none;
-  color:#57CCFF; 
-}
-.bg-white a:hover, .bg-white a:active {
   text-decoration: none;
   color:#FF4D5C;
 }
-.about{
-  padding:0px 100px;
+.bg-white a:hover, .bg-white a:active {
+  text-decoration: none;
+  color:#57CCFF;  
+
 }
-.index-header{
-  padding-bottom:50px;
+.bg-pink a, .bg-pink a:link, .bg-pink a:visited  {
+  text-decoration: none;
+  color:#1C419F;
+}
+.bg-pink a:hover, .bg-pink a:active {
+  text-decoration: none;
+  color:#57CCFF; 
+}
+.navbar {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border: 0;
+  border-radius: 0;
+  margin-bottom: 0;
+  font-size: 12px;
+  letter-spacing: 1px;
+  opacity: 0.8;
+/*  background-color:#110631;*/
+}
+.navbar-nav  li a:hover {
+/*  color: #FF4D5C !important;*/
+  color: #57CCFF !important;
+  color: #1C419F !important;
 }
 .grid {
   max-width: 900px;
@@ -60,18 +86,6 @@ a:hover, a:active {
   height:auto;
   opacity:0.9;*/
 }
-
-.grid-img:hover {
-  opacity:1;
-  border: 2px solid;
-  border-color: #57CCFF;
-  border-radius: 3px;
-}
-.grid-img:hover .overlay{
-  opacity:1;
-}
-
-
 
 
 
@@ -86,28 +100,26 @@ a:hover, a:active {
 }
 
 .hovereffect .overlay {
-/*  position: absolute;
+  position: absolute;
   overflow: hidden;
   width: 80%;
   height: 80%;
   left: 10%;
-  top: 30%;
+  top: 20%;
   -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
   transition: opacity 0.35s, transform 0.35s;
   -webkit-transform: scale(0,1);
   -ms-transform: scale(0,1);
-  transform: scale(0,1);*/
-opacity:0;
-
+  transform: scale(0,1);
 }
 
 .hovereffect:hover .overlay {
   opacity: 1;
-/*  filter: alpha(opacity=100);
+  filter: alpha(opacity=100);
   -webkit-transform: scale(1);
   -ms-transform: scale(1);
-  transform: scale(1);*/
-  background-color:#FF4D5C;
+  transform: scale(1);
+
 }
 
 .hovereffect img {
@@ -118,7 +130,6 @@ opacity:0;
 }
 
 .hovereffect:hover img {
- 
   filter: brightness(0.6);
   -webkit-filter: brightness(0.8);
 }
@@ -130,7 +141,6 @@ opacity:0;
   padding: 1em 0;
   opacity: 0;
   filter: alpha(opacity=0);
-
 }
 
 .hovereffect:hover p{
@@ -139,40 +149,18 @@ opacity:0;
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
 /*project page*/
-.home-icon{
-  width: 180px;
-  height:auto;
-  display:inline;
-}
 .gallery{
   padding-top:5rem;
   padding-bottom:10rem;
-  padding-left:5rem;
-  padding-right:5rem;
+  padding-left:2rem;
+  padding-right:2rem;
 }
-.gallerytitle{
-  color: #110631; 
-}
+
 .description{
   text-align:center;
   font-size:16px;
-  padding-top: 0rem;
-  padding-bottom: 0rem;
-  padding-right: 5rem;
-  padding-left: 5rem;
+  padding: 0rem 5rem;
 }
 .worktitle{
   color:#FF4D5C;
@@ -187,20 +175,13 @@ opacity:0;
   width:500px;
   display:inline;
 }
-.artwork-icon{
+/*.artwork-icon{
   padding:2rem;
   width:350px;
   display:inline;
 }
-.postcard{
-  padding-left:20rem;
-  padding-right:20rem;  
-  padding-bottom:10rem;
-}
-.postcard-photo{
-  padding:1rem;
-  width:250px;
-  display:inline;
-}
 
-
+*/
+#contact {
+  padding: 50px 0px;
+}
