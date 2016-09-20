@@ -81,13 +81,8 @@ a:hover, a:active {
   margin: 0 auto;
 }
 .grid-item{
-  padding:15px 0px;
-/*  width:250px;
-  height:auto;
-  opacity:0.9;*/
+  padding:10px 10px;
 }
-
-
 
 .hovereffect {
   width: 100%;
@@ -103,7 +98,7 @@ a:hover, a:active {
   position: absolute;
   overflow: hidden;
   width: 80%;
-  height: 80%;
+  height: 60%;
   left: 10%;
   top: 20%;
   -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
@@ -123,7 +118,7 @@ a:hover, a:active {
 }
 
 .hovereffect img {
-  display: block;
+  display: inline;
   position: relative;
   -webkit-transition: all 0.35s;
   transition: all 0.35s;
