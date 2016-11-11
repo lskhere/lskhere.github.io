@@ -11,7 +11,7 @@ body {
 /*font-family: 'Alegreya Sans', sans-serif;*/
 /*font-family: 'Merriweather Sans', sans-serif;*/
   line-height: 1.8;
-  font-size: 12px;
+  font-size: 14px;
   background-color: #f8f8f8;
 }
 .navbar {
@@ -19,22 +19,18 @@ body {
   border: 0;
   border-radius: 0;
 /*  margin:50px;*/
-  font-size: 15px;
+  font-size: 14px;
   letter-spacing: 1px;
   opacity: 0.8;
 
 }
 .navbar-nav  li a:hover {
   color: black !important;
-/*  color: #57CCFF !important;*/
-/*  color: #FF4D5C !important;*/
-/*  color: #1C419F !important;*/
 }
 .nav-item{
   margin-right:50px;
 }
 .button {
-    background-color: #f8f8f8;
     border: 2px solid black;
     color: black;
     padding: 16px 32px;
@@ -53,7 +49,6 @@ body {
     color: white;
 }
 .button2 {
-    background-color: #f8f8f8;
     border: none;
     color:black;
     padding: 16px 32px;
@@ -72,8 +67,10 @@ body {
     color: white;
 }
 .bg {
-  padding-top: 200px;
-  padding-bottom: 100px;
+  padding-top: 150px;
+  padding-bottom: 50px;
+  max-width: 1000px;
+  margin: 0 auto;
 }
 .social-media {
   padding: 100px 0px;
@@ -85,32 +82,14 @@ a, a:link, a:visited  {
 a:hover, a:active {
   text-decoration: none;
   color:black;
-/*  color:#FF4D5C;*/
-}
-/*.bg-white a, .bg-white a:link, .bg-white a:visited  {
-  text-decoration: none;
-  color:#FF4D5C;
-}
-.bg-white a:hover, .bg-white a:active {
-  text-decoration: none;
-  color:#57CCFF;  
 
 }
-.bg-pink a, .bg-pink a:link, .bg-pink a:visited  {
-  text-decoration: none;
-  color:#1C419F;
-}
-.bg-pink a:hover, .bg-pink a:active {
-  text-decoration: none;
-  color:#57CCFF; 
-}*/
-
 
 /*grid page*/
-.grid {
+/*.grid {
   max-width: 1000px;
   margin: 0 auto;
-}
+}*/
 .grid-item{
   padding:20px 0;
 }
@@ -189,12 +168,6 @@ a:hover, a:active {
 }
 
 /*project page*/
-/*.gallery{
-  padding-top:5rem;
-  padding-bottom:10rem;
-  padding-left:2rem;
-  padding-right:2rem;
-}*/
 .title{
   text-align:left;
   color:black;
@@ -217,28 +190,21 @@ a:hover, a:active {
 }
 
 
-/*about/contact page*/
-.bg-about {
-  padding-top: 200px;
-  padding-bottom: 100px;
-  width:900px;
-}
+/*about page*/
 .about{
   text-align:justify;
   width:450px;
-  font-size:16px;
+  line-height: 1.2;
+  font-size:14px;
+  margin:25px;
+  border: 2px solid black;
+  padding: 10px 50px;
 }
 .contact{
   text-align:justify;
   width:450px;
   font-size:16px;
+  margin:25px;
+  padding: 10px 50px;
 }
 
-/*coming soon*/
-/*.bg-img{
-    background-color: #cccccc;
-    background-image: url('img/test-img.jpg');
-    min-height: 100%;
-    background-position: center;
-    background-size: cover;
-}*/
