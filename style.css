@@ -178,6 +178,11 @@ a:hover, a:active {
   color:#808080;
   padding:0px 100px;
 }
+.artwork-sq {
+  padding:20px;
+  width:400px;
+  display:inline;
+}
 .artwork {
   padding:20px;
   width:800px;
