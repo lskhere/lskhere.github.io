@@ -12,20 +12,21 @@ body {
 /*font-family: 'Merriweather Sans', sans-serif;*/
   line-height: 1.8;
   font-size: 14px;
-  background-color: #f8f8f8;
+  background-color: #ffffff;
+/*  background-color: #f8f8f8;*/
 }
+
 .navbar {
   padding: 50px;
   border: 0;
   border-radius: 0;
-/*  margin:50px;*/
   font-size: 14px;
   letter-spacing: 1px;
   opacity: 0.95;
-
+  background-color: #ffffff;
 }
 .navbar-nav  li a:hover {
-  color: black !important;
+  color: red !important;
 }
 .nav-item{
   margin-right:50px;
