@@ -11,9 +11,9 @@
   <!--css file-->
   <link rel="stylesheet" type="text/css" href="css/style.css">
   <!-- js file -->  
-<!--   <script src="script.js"></script> -->
+  <script src="js/script.js"></script>
   <!--browser icon-->
-  <link rel="icon" href="img/me.png">
+  <link rel="icon" href="img/icon.png">
   <!--font-->
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
 
@@ -28,86 +28,65 @@
   </script>
 
 </head>
-<body id="home">
+<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="50">
 
 <!-- Navbar -->
-<nav class="navbar navbar-default navbar-fixed-top">
-  <div class="container">
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <a class="navbar-brand" href="index.html"><span style="color:black">SUKI</span>LAU</a>
+<header>
+  <nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="index.html"><span style="color:black">SUKI</span>LAU</a>
+      </div>
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav navbar-right">
+          <li class="nav-item"><a href="portfolio.html">Portfolio</a></li> 
+          <li class="nav-item active-nav"><a href="about.html">About</a></li>
+        </ul>
+      </div>
     </div>
-    <div class="collapse navbar-collapse" id="myNavbar">
-      <ul class="nav navbar-nav navbar-right">
-        <li class="nav-item"><a href="portfolio.html">Illustration & Design</a></li> 
-        <li class="nav-item"><a href="about.html" style="color:red">About</a></li>
-      </ul>
-    </div>
-  </div>
-</nav>
-
+  </nav>
+</header>
 
 <!-- Container-->
-<div class="container-fluid bg text-justify" style="width:90%; max-width:500px">
-  <p style="font-size:24px">Hi, I'm Suki.</p>
-  <p>An illustrator/designer living in Salt Lake City. I create illustrations, graphics, websites and some animations.</p>
-  <p>If you have a sweet project or just want to say hello, feel free to get in touch! I will gladly take on projects from anywhere in the world.</p>
-  <p>A detailed CV and a PDF portfolio are available upon <a href="mailto:sukilauhk@gmail.com">request</a>.</p>
-  <p>Contact : <a href="mailto:sukilauhk@gmail.com">sukilauhk@gmail.com</a></p>
-</div>
-
-
-<!--   <div class="row"> -->
-<!--     <div class="col-sm-6 about">
-      <div class="row">
-        <h3>EDUCATION</h3>
-        <h4>Professional Certificates</h4>
-        <p>Photoshop and Illustrator Digital Graphic Design</p>
-        <p>AutoCAD 2D & 3D Professional Drafting and Design</p>
-        <p>Oil Painting Techniques and Creation</p>
-        <p>Watercolor Painting Techniques</p>
-        <h4>Hong Kong Art School</h4>
-        <p>Professional Diploma in Fine Art | Class of 2015</p>
+<main>
+  <div class="container-fluid bg-blue text-center">
+    <img src="img/me.jpg" alt="image" class="img-responsive/"><br/>
+    <a href="#about"><span class="glyphicon glyphicon-menu-down"></span></a>
+  </div>
+  <div id="about" class="container text-left">
+    <div class="row">
+      <div class="col-sm-4">
+        <h2>About me</h2>
       </div>
-      <div class="row">
-        <h3>SKILLS</h3>
-        <p style="text-align:left;">Adobe Photoshop
-        <span style="float:right;">&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;</span></p>
-        <p style="text-align:left;">Adobe Illustrator
-        <span style="float:right;">&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;</span></p>
-        <p style="text-align:left;">Adobe InDesign
-        <span style="float:right;">&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;</span></p>
-        <p style="text-align:left;">Adobe After Effects
-        <span style="float:right;">&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;</span></p>
-        <p style="text-align:left;">Adobe Dreamweaver
-        <span style="float:right;">&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;</span></p>
-        <p style="text-align:left;">HTML/CSS
-        <span style="float:right;">&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;</span></p>
-        <p style="text-align:left;">Illustration/Drawing/Painting
-        <span style="float:right;">&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;</span></p>     
-        <p style="text-align:left;">Creativity
-        <span style="float:right;">&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;</span></p>        
+      <div class="col-sm-8">
+        <p>Hi, I'm Suki.</p>
+        <p>An illustrator/designer living in Salt Lake City. I create illustrations, graphics, websites and some animations.</p>
+        <p>If you have a sweet project or just want to say hello, feel free to get in touch! I will gladly take on projects from anywhere in the world.</p>
+        <p>A detailed CV and a PDF portfolio are available upon <a href="mailto:sukilauhk@gmail.com">request</a>.</p>
+        <br/>
+        <p>Contact: <a href="mailto:sukilauhk@gmail.com">sukilauhk@gmail.com</a></p>
       </div>
-      <div class="row">
-        <h3>INTEREST</h3>
-        <p>Urban Skecting | Photography | Data Visualization</p>
-      </div>
-    </div> -->
-
-
+    </div>
+  </div>
+</main>
 
 <!--Footer-->
-<div class="social-media container-fluid bg text-center">
-  <a class="button" href="mailto:sukilauhk@gmail.com">EMAIL</a>
-  <a class="button" href="https://www.instagram.com/urbancatcher" target="_blank">INSTAGRAM</a>
-  <a class="button" href="https://www.twitter.com/sukilauhk" target="_blank">TWITTER</a>
-  <a class="button" href="https://lskhere.tumblr.com" target="_blank">TUMBLR</a>
-</div>
-
+<footer class="text-center">
+  <div class="footer-links">
+    <a class="button" href="https://dribbble.com/sukilau" target="_blank">DRIBBBLE</a>
+    <a class="button" href="https://www.behance.net/sukilauhk" target="_blank">BEHANCE</a>
+    <a class="button" href="https://www.instagram.com/urbancatcher/" target="_blank">INSTAGRAM</a>
+    <a class="button" href="https://lskhere.tumblr.com" target="_blank">TUMBLR</a>
+    <br/><br/>
+    <p>&copy; Suki Lau 2016 | <a href="mailto:sukilauhk@gmail.com">sukilauhk@gmail.com</a></p>
+  </div>
+  <a href="#myPage"><span class="glyphicon glyphicon-menu-up"></span></a>
+</footer>
 </body>
 </html>
 

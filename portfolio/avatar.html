@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>SUKI LAU | Illustration + Design</title>
+  <title>SUKI LAU | Portfolio</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <!--Bootstrap-->
@@ -11,7 +11,7 @@
   <!--css file-->
   <link rel="stylesheet" type="text/css" href="../css/style.css">
   <!-- js file -->  
-  <script src="script.js"></script>
+  <script src="../js/script.js"></script>
   <!--browser icon-->
   <link rel="icon" href="img/icon.png">
   <!--font-->
@@ -28,62 +28,72 @@
   </script>
 
 </head>
-<body id="home">
+<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="50">
 
 <!-- Navbar -->
-<nav class="navbar navbar-default navbar-fixed-top">
-  <div class="container">
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <a class="navbar-brand" href="../index.html"><span style="color:black">SUKI</span>LAU</a>
+<header>
+  <nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="../index.html"><span style="color:black">SUKI</span>LAU</a>
+      </div>
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav navbar-right">
+          <li class="nav-item" active-nav><a href="../portfolio.html">Portfolio</a></li> 
+          <li class="nav-item"><a href="../about.html">About</a></li>
+        </ul>
+      </div>
     </div>
-    <div class="collapse navbar-collapse" id="myNavbar">
-      <ul class="nav navbar-nav navbar-right">
-        <li class="nav-item"><a href="../portfolio.html" style="color:red">Illustration & Design</a></li> 
-        <li class="nav-item"><a href="../about.html">About</a></li>
-      </ul>
-    </div>
-  </div>
-</nav>
+  </nav>
+</header>
+
 
 <!-- Container-->
-<div class="container-fluid bg text-center">
-  <div class="row">  
-    <div class="col-sm-12">
-      <p class="title">Graphics / Avatar</p>
-      <p class="description">Digital, 2016</p>
-      <p class="description">For fun</p>
+<main>
+  <div class="container text-center">
+    <div class="row">  
+      <div class="col-sm-12">
+        <p class="title">Graphics / Avatar</p>
+        <p class="description">Digital, 2016</p>
+        <p class="description">For fun</p>
+      </div>
     </div>
-    <div class="col-sm-12">
-      <img src="img/avatar/sailormoon-moon.png" class="img-responsive" alt="image" style="width:300px;    padding:20px; margin: 0px auto">
-      <img src="img/avatar/sailormecury.png" class="img-responsive" alt="image" style="width:300px;    padding:20px; margin: 0px auto">
-      <img src="img/avatar/sailormars.png" class="img-responsive" alt="image" style="width:300px;    padding:20px; margin: 0px auto">
-      <img src="img/avatar/sailorjupiter.png" class="img-responsive" alt="image" style="width:300px;    padding:20px; margin: 0px auto">
-      <img src="img/avatar/sailorvenus.png" class="img-responsive" alt="image" style="width:300px;    padding:20px; margin: 0px auto">
-      <img src="img/avatar/me.png" class="img-responsive" alt="image" style="width:300px;    padding:20px; margin: 0px auto">
-
+    <div class="row">  
+      <div class="col-sm-12">
+        <a href="webdesign.html">prev</a> / <a href="meow-show.html">next</a>
+      </div>
     </div>
-    <div class="col-sm-12">
-      <a class="button2" href="webdesign.html">prev</a>
-      <a class="button2" href="meow-show.html">next</a>
+    <div class="row">  
+      <div class="col-sm-12">
+        <img src="img/avatar/sailormoon-moon.png" class="img-responsive" alt="image" style="width:300px;    padding:20px; margin: 0px auto">
+        <img src="img/avatar/sailormecury.png" class="img-responsive" alt="image" style="width:300px;    padding:20px; margin: 0px auto">
+        <img src="img/avatar/sailormars.png" class="img-responsive" alt="image" style="width:300px;    padding:20px; margin: 0px auto">
+        <img src="img/avatar/sailorjupiter.png" class="img-responsive" alt="image" style="width:300px;    padding:20px; margin: 0px auto">
+        <img src="img/avatar/sailorvenus.png" class="img-responsive" alt="image" style="width:300px;    padding:20px; margin: 0px auto">
+        <img src="img/avatar/me.png" class="img-responsive" alt="image" style="width:300px;    padding:20px; margin: 0px auto">
+      </div>
     </div>
   </div>
-</div>
-
-
+</main>
 
 <!--Footer-->
-<div class="social-media container-fluid bg text-center">
-  <a class="button" href="mailto:sukilauhk@gmail.com">EMAIL</a>
-  <a class="button" href="https://www.instagram.com/urbancatcher" target="_blank">INSTAGRAM</a>
-  <a class="button" href="https://www.twitter.com/sukilauhk" target="_blank">TWITTER</a>
-  <a class="button" href="https://lskhere.tumblr.com" target="_blank">TUMBLR</a>
-</div>
-
+<footer class="text-center">
+  <div class="footer-links">
+    <a class="button" href="https://dribbble.com/sukilau" target="_blank">DRIBBBLE</a>
+    <a class="button" href="https://www.behance.net/sukilauhk" target="_blank">BEHANCE</a>
+    <a class="button" href="https://www.instagram.com/urbancatcher/" target="_blank">INSTAGRAM</a>
+    <a class="button" href="https://lskhere.tumblr.com" target="_blank">TUMBLR</a>
+    <br/><br/>
+    <p>&copy; Suki Lau 2016 | <a href="mailto:sukilauhk@gmail.com">sukilauhk@gmail.com</a></p>
+  </div>
+  <a href="#myPage"><span class="glyphicon glyphicon-menu-up"></span></a>
+</footer>
 </body>
 </html>
+
 

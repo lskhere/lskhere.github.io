@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>SUKI LAU | Illustration + Design</title>
+  <title>SUKI LAU | Portfolio</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <!--Bootstrap-->
@@ -10,10 +10,11 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
   <!--css file-->
   <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="stylesheet" type="text/css" href="css/style-effect.css">  
   <!-- js file -->  
-<!--   <script src="script.js"></script> -->
+  <script src="js/script.js"></script>
   <!--browser icon-->
-  <link rel="icon" href="img/me.png">
+  <link rel="icon" href="img/icon.png">
   <!--font-->
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
   
@@ -28,126 +29,129 @@
   </script>
 
 </head>
-<body id="home">
+<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="50">
 
 <!-- Navbar -->
-<nav class="navbar navbar-default navbar-fixed-top">
-  <div class="container">
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <a class="navbar-brand" href="index.html"><span style="color:black">SUKI</span>LAU</a>
+<header>
+  <nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="index.html"><span style="color:black">SUKI</span>LAU</a>
+      </div>
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav navbar-right">
+          <li class="nav-item" active-nav><a href="portfolio.html">Portfolio</a></li> 
+          <li class="nav-item"><a href="about.html">About</a></li>
+        </ul>
+      </div>
     </div>
-    <div class="collapse navbar-collapse" id="myNavbar">
-      <ul class="nav navbar-nav navbar-right">
-        <li class="nav-item"><a href="portfolio.html">Illustration & Design</a></li> 
-        <li class="nav-item"><a href="about.html">About</a></li>
-      </ul>
+  </nav>
+</header>
+
+<main>
+  <div class="container-fluid bg-blue text-center">
+    <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+    <h1>Portfolio</h1><br/>
+    <a href="#portfolio"><span class="glyphicon glyphicon-menu-down"></span></a>
+  </div>
+
+  <div id="portfolio" class="container text-left">
+    <div class="grid">
+      <div class="row">
+        <div class="col-sm-6">
+          <div class="grid-item hovereffect">
+            <img src="img/meow-show.jpg" class="img-responsive" alt="image">
+            <a href="portfolio/meow-show.html"> <div class="overlay"><p>Poster Design / Meow Show</p></div></a>
+          </div>
+        </div>
+        <div class="col-sm-6">
+          <div class="grid-item hovereffect">
+            <img src="img/animal-love.jpg" class="img-responsive" alt="image">
+            <a href="portfolio/animal-love.html"> <div class="overlay"><p>Flyer Design / #animallove365</p></div></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-sm-6">
+          <div class="grid-item hovereffect">
+            <img src="img/postcard-poolside.jpg" class="img-responsive" alt="image">
+            <a href="portfolio/postcard-poolside.html"> <div class="overlay"><p>Postcard Design / Poolside Apartment</p></div></a>  
+          </div>
+        </div>
+        <div class="col-sm-6">
+          <div class="grid-item hovereffect">
+            <img src="img/character-design.jpg" class="img-responsive" alt="image">
+            <a href="portfolio/character-design.html"> <div class="overlay"><p>Character Design / Sausageman</p></div></a>  
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-sm-6">
+          <div class="grid-item hovereffect">
+            <img src="img/pattern-design-1.jpg" class="img-responsive"  alt="image">
+            <a href="portfolio/pattern-design-1.html"> <div class="overlay"><p>Pattern Design / 1</p></div></a>  
+          </div>
+        </div>
+        <div class="col-sm-6">
+          <div class="grid-item hovereffect">
+            <img src="img/pattern-design-2.jpg" class="img-responsive"  alt="image">
+            <a href="portfolio/pattern-design-2.html"> <div class="overlay"><p>Pattern Design / 2</p></div></a>  
+          </div>
+        </div>
+      </div>
+    
+      <div class="row">
+        <div class="col-sm-6">
+          <div class="grid-item hovereffect">
+            <img src="img/zine.jpg" class="img-responsive" alt="image">
+            <a href="portfolio/zine.html"> <div class="overlay"><p>Illustration Zine</p></div></a>
+          </div>
+        </div>
+        <div class="col-sm-6">
+          <div class="grid-item hovereffect">
+            <img src="img/sketchbook.jpg" class="img-responsive" alt="image">
+            <a href="portfolio/sketchbook.html"> <div class="overlay"><p>Sketchbook Art</p></div></a>  
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-sm-6">
+          <div class="grid-item hovereffect">
+            <img src="img/webdesign.jpg" class="img-responsive" alt="image">
+            <a href="portfolio/webdesign.html"> <div class="overlay"><p>Icons + Graphics + Layout Design for Website</p></div></a>  
+          </div>
+        </div>
+        <div class="col-sm-6">
+          <div class="grid-item hovereffect">
+            <img src="img/avatar.jpg" class="img-responsive" alt="image">
+            <a href="portfolio/avatar.html"> <div class="overlay"><p>Graphics / Avatar</p></div></a>  
+          </div>
+        </div>
+      </div>
     </div>
   </div>
-</nav>
-
-
-
-<!-- Container-->
-<div class="container-fluid bg text-center">
-  <div class="grid">
-
-    <div class="row">
-      <div class="col-sm-6">
-        <div class="grid-item hovereffect">
-          <img src="img/meow-show.jpg" class="img-responsive" alt="image">
-          <a href="portfolio/meow-show.html"> <div class="overlay"><p>Poster Design / Meow Show</p></div></a>
-        </div>
-      </div>
-      <div class="col-sm-6">
-        <div class="grid-item hovereffect">
-          <img src="img/animal-love.jpg" class="img-responsive" alt="image">
-          <a href="portfolio/animal-love.html"> <div class="overlay"><p>Flyer Design / #animallove365</p></div></a>
-        </div>
-      </div>
-    </div>
-
-    <div class="row">
-      <div class="col-sm-6">
-        <div class="grid-item hovereffect">
-          <img src="img/postcard-poolside.jpg" class="img-responsive" alt="image">
-          <a href="portfolio/postcard-poolside.html"> <div class="overlay"><p>Postcard Design / Poolside Apartment</p></div></a>  
-        </div>
-      </div>
-      <div class="col-sm-6">
-        <div class="grid-item hovereffect">
-          <img src="img/character-design.jpg" class="img-responsive" alt="image">
-          <a href="portfolio/character-design.html"> <div class="overlay"><p>Character Design / Sausageman</p></div></a>  
-        </div>
-      </div>
-    </div>
-
-    <div class="row">
-      <div class="col-sm-6">
-        <div class="grid-item hovereffect">
-          <img src="img/pattern-design-1.jpg" class="img-responsive"  alt="image">
-          <a href="portfolio/pattern-design-1.html"> <div class="overlay"><p>Pattern Design / 1</p></div></a>  
-        </div>
-      </div>
-      <div class="col-sm-6">
-        <div class="grid-item hovereffect">
-          <img src="img/pattern-design-2.jpg" class="img-responsive"  alt="image">
-          <a href="portfolio/pattern-design-2.html"> <div class="overlay"><p>Pattern Design / 2</p></div></a>  
-        </div>
-      </div>
-    </div>
-  
-    <div class="row">
-      <div class="col-sm-6">
-        <div class="grid-item hovereffect">
-          <img src="img/zine.jpg" class="img-responsive" alt="image">
-          <a href="portfolio/zine.html"> <div class="overlay"><p>Illustration Zine</p></div></a>
-        </div>
-      </div>
-      <div class="col-sm-6">
-        <div class="grid-item hovereffect">
-          <img src="img/sketchbook.jpg" class="img-responsive" alt="image">
-          <a href="portfolio/sketchbook.html"> <div class="overlay"><p>Sketchbook Art</p></div></a>  
-        </div>
-      </div>
-    </div>
-
-    <div class="row">
-      <div class="col-sm-6">
-        <div class="grid-item hovereffect">
-          <img src="img/webdesign.jpg" class="img-responsive" alt="image">
-          <a href="portfolio/webdesign.html"> <div class="overlay"><p>Icons + Graphics + Layout Design for Website</p></div></a>  
-        </div>
-      </div>
-      <div class="col-sm-6">
-        <div class="grid-item hovereffect">
-          <img src="img/avatar.jpg" class="img-responsive" alt="image">
-          <a href="portfolio/avatar.html"> <div class="overlay"><p>Graphics / Avatar</p></div></a>  
-        </div>
-      </div>
-    </div>
-
-
-
-  </div>
-</div>
-
-
-
+</main>
 
 <!--Footer-->
-<div class="social-media container-fluid bg text-center">
-  <a class="button" href="mailto:sukilauhk@gmail.com">EMAIL</a>
-  <a class="button" href="https://www.instagram.com/urbancatcher" target="_blank">INSTAGRAM</a>
-  <a class="button" href="https://www.twitter.com/sukilauhk" target="_blank">TWITTER</a>
-  <a class="button" href="https://lskhere.tumblr.com" target="_blank">TUMBLR</a>
-</div>
-
-
+<footer class="text-center">
+  <div class="footer-links">
+    <a class="button" href="https://dribbble.com/sukilau" target="_blank">DRIBBBLE</a>
+    <a class="button" href="https://www.behance.net/sukilauhk" target="_blank">BEHANCE</a>
+    <a class="button" href="https://www.instagram.com/urbancatcher/" target="_blank">INSTAGRAM</a>
+    <a class="button" href="https://lskhere.tumblr.com" target="_blank">TUMBLR</a>
+    <br/><br/>
+    <p>&copy; Suki Lau 2016 | <a href="mailto:sukilauhk@gmail.com">sukilauhk@gmail.com</a></p>
+  </div>
+  <a href="#myPage"><span class="glyphicon glyphicon-menu-up"></span></a>
+</footer>
 </body>
 </html>
 
