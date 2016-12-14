@@ -15,9 +15,12 @@ body {
 /*font-family: 'Alegreya Sans', sans-serif;*/
 /*font-family: 'Merriweather Sans', sans-serif;*/
 }
-h1, h2, h3, h4{
+h1, h2{
   font-size: 5rem;
 } 
+h3, h4{
+  font-size: 3rem;
+}
 a, a:link, a:visited  {
   text-decoration: none;
   color: #808080;
@@ -26,6 +29,13 @@ a:hover, a:active {
   text-decoration: none;
   color: rgb(0,0,255);
 }
+
+.carousel-01 {
+   height: 100vh;
+   background: url('../img/cover.jpg') no-repeat center center;
+   background-size: cover;
+}
+
 .container{
   max-width: 900px;
 /*  max-width: 768px;*/  /*bootstrap sm breakpoint*/
@@ -43,11 +53,17 @@ a:hover, a:active {
   color: #ffffff;
   padding: 5rem 0;
 }
-.bg-blue img{
+#me-img{
   margin: 0 auto;
   padding-top: 10rem;
   padding-bottom: 5rem;
   width: 300px;
+}
+#portfolio-img{
+  margin: 0 auto;
+  padding-top: 5rem;
+  padding-bottom: 2rem;
+  width: 545px;
 }
 .bg-blue .glyphicon {
   color: #ffffff ;
@@ -101,28 +117,35 @@ footer {
 }
 
 /* Portfolio */
-.title{
-  text-align: left;
-}
-.description{
-  text-align: left;
-}
-.artwork-sq {
-  padding: 20px;
-  width: 400px;
-  display: inline;
-}
-.artwork {
+.bg-grey {
+  background-color: #f8f8f8;
   margin: 0 auto;
-  padding-bottom: 3rem;
-  width: 100%;
-  max-width: 600px;
-  display: inline-block;
+  padding: 10rem 3rem;
 }
-.artwork-portrait {
-  padding: 20px;
-  max-width: 600px;
-  display: inline;
+.bg-white {
+  background-color: #ffffff;
+  margin: 0 auto;
+  padding: 10rem 3rem;
+}
+.artwork-1col{
+  margin: 0 auto;
+  padding: 1rem;
+}
+.wrapper-2col{
+  max-width: 1000px;
+  margin: 0 auto;
+}
+.artwork-2col{
+  margin: 0 auto;
+  padding: 1rem;
+}
+.wrapper-4col{
+  max-width: 1000px;
+  margin: 0 auto;
+}
+.artwork-4col{
+  margin: 0 auto;
+  padding: 1rem;
 }
 
 
