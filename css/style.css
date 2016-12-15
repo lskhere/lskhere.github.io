@@ -137,13 +137,16 @@ footer {
   margin: 0 auto;
   padding: 10rem 3rem;
 }
-.artwork-1col, .artwork-2col, .artwork-3col, .artwork-4col{
-  margin: 0 auto;
-  padding: 2rem;
-}
-.wrapper-2col, .wrapper-3col, .wrapper-4col{
+.wrapper-3col, .wrapper-4col {
   max-width: 1200px;
   margin: 0 auto;
 }
-
+.wrapper {
+  max-width: 900px;
+  margin: 0 auto;
+}
+.artwork {
+  margin: 0 auto;
+  padding: 2rem;
+}
 
