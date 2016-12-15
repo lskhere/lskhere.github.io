@@ -127,6 +127,11 @@ footer {
   margin: 0 auto;
   padding: 10rem 3rem;
 }
+.bg-darkgrey {
+  background-color: #232323;
+  margin: 0 auto;
+  padding: 10rem 3rem;
+}
 .bg-white {
   background-color: #ffffff;
   margin: 0 auto;
