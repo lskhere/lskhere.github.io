@@ -28,13 +28,13 @@ a:hover, a:active {
   border-radius: 0;
   font-size: 1.5rem;
   letter-spacing: 0.1rem;
-  opacity: 0.8;
-  background-color: #000000;
+  opacity: 1;
+  background-color: #ffffff;
   font-family: 'Josefin Sans', sans-serif;
 }
 .navbar-nav  li a{
   text-decoration: none !important; 
-  color: #ffffff !important;
+  color: #000000 !important;
 }
 /*.navbar-nav  li a:hover {
   text-decoration: none; 
@@ -51,13 +51,27 @@ a:hover, a:active {
   -webkit-box-shadow: none;
 }
 .bg{
+
   max-width: 900px;
   margin: 0 auto;
   padding-top: 10%;
 }
-#landing{
-  padding-top: 3%;
+#index{
+    position: absolute;
+    top: -200px;
+    left: -150px;
+
+opacity:0.7;
+  margin: 0 auto;
+  padding: 5%;
+  width: 100%;
+  max-width: 700px;
+
 }
+#landing{
+  padding-top: 30%;
+}
+
 .grid {
   -webkit-column-count: 2; /* Chrome, Safari, Opera */
   -moz-column-count: 2; /* Firefox */
