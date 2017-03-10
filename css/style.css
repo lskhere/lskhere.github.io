@@ -1,78 +1,88 @@
+/*[color scheme]
+  color: #757b8a;
+  color: #404040;
+  color: #3274ff;
+  color: #94b6ff;*/
+
 body {
 /*  font-family: 'Josefin Sans', sans-serif;*/
-  font-family: 'Open Sans', sans-serif;
-  font-size: 1.5em;
-  line-height: 2;
+/*  font-family: 'Open Sans', sans-serif;*/
+/*font-family: 'Roboto', sans-serif;*/
+  font-family: 'Roboto Mono', sans-serif;
+  font-size: 14px;
+  line-height: 2em;
+  text-transform: none;
+  letter-spacing: 0px;
+  font-weight: 300;
+  font-style: normal;
+  color: #757b8a;
   background-color: #ffffff;
-  color: #505050;
   margin: 0 auto;
 }
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Josefin Sans', sans-serif;
-/*  font-family: "Raleway", sans-serif;*/
-  color: #000000;
+  color: #404040;
+}
+h3, h4, h5, h6 {
+  font-size: 16px;
 }
 a, a:link, a:visited  {
   text-decoration: none;
-  color: rgb(0,0,255);
+  color: #94b6ff;
 }
 a:hover, a:active {
   text-decoration: none;
-  color: rgb(255,0,0);
+  color: #3274ff !important;
 }
 .navbar {
+  color: #94b6ff !important;
   padding-top: 1%;
   padding-left: 5%;
   padding-right: 5%;
   border: 0;
   border-radius: 0;
-  font-size: 1.5rem;
-  letter-spacing: 0.1rem;
+  font-size: 14px;
+  letter-spacing: 0.1em;
   opacity: 1;
   background-color: #ffffff;
-  font-family: 'Josefin Sans', sans-serif;
 }
-
+.navbar-brand {
+  color: #94b6ff !important;
+  font-size: 14px;
+}
 .navbar-nav  li a{
   text-decoration: none !important; 
-  color: #000000 !important;
+  color: #94b6ff !important;
 }
-/*.navbar-nav  li a:hover {
+.navbar-nav  li a:hover {
   text-decoration: none; 
-  color: rgb(0,0,255) !important;
+  color: #3274ff !important;
 }
-.active-nav a{
+/*.active-nav a{
   text-decoration: none;
   color: rgb(0,0,255) !important;
-}*/
+}
 .dropdown-toggle, .dropdown-menu, .dropdown-menu a{
   background-color: transparent !important;
   border: none;
   box-shadow: none;
   -webkit-box-shadow: none;
-}
+}*/
 .bg{
-
   max-width: 900px;
   margin: 0 auto;
-  padding-top: 10%;
-}
-#index{
-    position: absolute;
-    top: -200px;
-    left: -150px;
-
-opacity:0.7;
-  margin: 0 auto;
   padding: 5%;
-  width: 100%;
-  max-width: 700px;
-
+  background-color: #ffffff;
 }
 #landing{
-  padding-top: 5%;
+  padding-top: 180px;
 }
-
+#projects{
+  max-width: 1100px;
+  padding-top: 100px;
+}
+#contact{
+  margin-top: 100px;
+}
 .grid {
   -webkit-column-count: 2; /* Chrome, Safari, Opera */
   -moz-column-count: 2; /* Firefox */
@@ -85,96 +95,27 @@ opacity:0.7;
   column-width: 400px;
 }
 .grid-item {
+  display: inline;
   width: 100%;
   margin: 0 auto;
-  padding: 2%;
+  padding: 5%;
 }
 .grid-item img {
   margin: 0 auto;
+  padding-top: 10%;
+  padding-bottom: 0;
+}
+.project-title {
+  padding-top: 100px;
+}
+.bg-l{
+  max-width: 1200px;
+}
+.bg img{
+  padding: 1%;
 }
 footer{
   margin-top: 10%;
   padding: 5%;
   background-color: #f0f0f0;
-  font-family: 'Josefin Sans', sans-serif;
 }
-
-
-/* Portfolio */
-/*.bg-grey {
-  max-width: 1200px;
-  background-color: #f8f8f8;
-  margin: 0 auto;
-  padding: 5%;
-}*/
-.bg-port {
-  max-width: 1200px;
-  background-color: #ffffff;
-  margin: 0 auto;
-  padding: 10%;
-}
-.bg-port img{
-  margin: 0 auto;
-  padding: 3%;
-}
-/*.artwork-1col, .artwork-2col, .artwork-3col, .artwork-4col{
-  margin: 0 auto;
-  padding: 2rem;
-}*/
-/*.wrapper-2col, .wrapper-3col, .wrapper-4col{
-  max-width: 1200px;
-  margin: 0 auto;
-}
-*/
-
-
-/*.left{
-  text-align: right;
-}
-.right{
-
-}
-.inside{
-  background-color:#ffffff;
-  font-family: sans-serif;
-  border: solid 1px red;
-  border-radius: 5px;
-  padding:10px 20px;
-}
-.index-bg {
-  padding: 50px 0px;
-  max-width:900px;
-  margin: 0 auto;
-}
-
-.box {
-  background-color: #f1f1f1;  
-  height:250px;
-  border: 5px solid white;
-  text-align:left;
-  overflow: auto;
-}
-.seperator{
-  margin-top:110px;
-  background-color: black;
-  color: white;
-  text-align:center;
-}
-.button {
-    border: 2px solid black;
-    color: black;
-    padding: 16px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 12px;
-    margin: 4px 20px;
-    -webkit-transition-duration: 0.4s; 
-    transition-duration: 0.4s;
-    cursor: pointer;
-    width: 200px;
-}
-.button:hover {
-    background-color: black;
-    color: white;
-}*/
