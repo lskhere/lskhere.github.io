@@ -67,6 +67,10 @@ a:hover, a:active {
   box-shadow: none;
   -webkit-box-shadow: none;
 }*/
+.container-fluid{
+  margin: 0 auto;
+  padding: 0;
+}
 .bg{
   max-width: 900px;
   margin: 0 auto;
@@ -110,8 +114,16 @@ a:hover, a:active {
 }
 .bg-l{
   max-width: 1200px;
+  margin: 0 auto;
+  padding: 5%;
+  background-color: #ffffff;
+}
+.bg-l img{
+  margin: 0 auto;
+  padding: 1%;
 }
 .bg img{
+  margin: 0 auto;
   padding: 1%;
 }
 footer{
