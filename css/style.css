@@ -19,7 +19,10 @@ body {
   background-color: #ffffff;
   margin: 0 auto;
 }
-h1, h2, h3, h4, h5, h6 {
+h1, h2{
+  color: #3274ff;
+}
+h3, h4, h5, h6 {
   color: #404040;
 }
 h3, h4, h5, h6 {
@@ -47,7 +50,6 @@ a:hover, a:active {
 }
 .navbar-brand {
   color: #94b6ff !important;
-  font-size: 14px;
 }
 .navbar-nav  li a{
   text-decoration: none !important; 
@@ -77,60 +79,64 @@ a:hover, a:active {
   padding: 5%;
   background-color: #ffffff;
 }
+.bg img{
+  margin: 0 auto;
+}
 #landing{
   padding-top: 180px;
 }
 #projects{
-  max-width: 1100px;
+  max-width: 900px;
   padding-top: 100px;
 }
 #contact{
   margin-top: 100px;
 }
 .grid {
-  -webkit-column-count: 2; /* Chrome, Safari, Opera */
-  -moz-column-count: 2; /* Firefox */
-  column-count: 2;
+  -webkit-column-count: 3; /* Chrome, Safari, Opera */
+  -moz-column-count: 3; /* Firefox */
+  column-count: 3;
   -webkit-column-gap: 0px; /* Chrome, Safari, Opera */
   -moz-column-gap: 0px; /* Firefox */
   column-gap: 0px;
-  -webkit-column-width: 400px; /* Chrome, Safari, Opera */
-  -moz-column-width: 400px; /* Firefox */
-  column-width: 400px;
+  -webkit-column-width: 350px; /* Chrome, Safari, Opera */
+  -moz-column-width: 350px; /* Firefox */
+  column-width: 350px;
 }
 .grid-item {
-  display: inline;
-  width: 100%;
+  display: inline-block;
   margin: 0 auto;
-  padding: 5%;
+  padding: 3%;
 }
-.grid-item img {
+/*.grid-item img {
   margin: 0 auto;
   padding-top: 10%;
   padding-bottom: 0;
-}
-.project-title {
-  padding-top: 100px;
-}
-.bg-l{
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 5%;
-  background-color: #ffffff;
-}
-.bg-l img{
-  margin: 0 auto;
-  padding: 1%;
-}
-.bg img{
-  margin: 0 auto;
-  padding: 1%;
-}
+}*/
 footer{
   margin-top: 10%;
   padding: 5%;
   background-color: #f0f0f0;
 }
+
+/*----------Projects----------*/
+.bg-project {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 5%;
+  background-color: #ffffff;
+}
+.bg-project img{
+  margin: 0 auto;
+  padding: 3%;
+}
+.project-title {
+  padding-top: 100px;
+}
+.project-title h2{
+  color: #3274ff;
+}
+
 .mockup{
   padding: 5%;
   background-color: #f0f0f0;
