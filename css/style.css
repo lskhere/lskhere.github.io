@@ -109,7 +109,7 @@ a:hover, a:active {
 .grid-item {
   display: inline-block;
   margin: 0 auto;
-  padding: 5%;
+  padding: 2%;
 }
 /*.grid-item img {
   margin: 0 auto;
