@@ -1,14 +1,6 @@
-/*[color scheme]
-  color: #757b8a;
-  color: #404040;
-  color: #3274ff;
-  color: #94b6ff;*/
-
+body, html {height: 100%;}
+body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto Mono", sans-serif;}
 body {
-/*  font-family: 'Josefin Sans', sans-serif;*/
-/*  font-family: 'Open Sans', sans-serif;*/
-/*font-family: 'Roboto', sans-serif;*/
-  font-family: 'Roboto Mono', sans-serif;
   font-size: 14px;
   line-height: 2em;
   text-transform: none;
@@ -19,82 +11,37 @@ body {
   background-color: #ffffff;
   margin: 0 auto;
 }
-h1, h2{
-  color: #3274ff;
+h1, h2 {color: #3274ff;}
+h3, h4, h5, h6 {color: #404040; font-size: 16px;}
+a, a:link, a:visited  {text-decoration: none; color: #94b6ff;
 }
-h3, h4, h5, h6 {
-  color: #404040;
+a:hover, a:active {text-decoration: none; color: #3274ff !important;
 }
-h3, h4, h5, h6 {
-  font-size: 16px;
-}
-a, a:link, a:visited  {
-  text-decoration: none;
-  color: #94b6ff;
-}
-a:hover, a:active {
-  text-decoration: none;
-  color: #3274ff !important;
-}
-.navbar {
-  color: #94b6ff !important;
-  padding-top: 1%;
-  padding-left: 5%;
-  padding-right: 5%;
-  border: 0;
-  border-radius: 0;
-  font-size: 14px;
-  letter-spacing: 0.1em;
-  opacity: 1;
-  background-color: #ffffff;
-}
-.navbar-brand {
-  color: #94b6ff !important;
-}
-.navbar-nav  li a{
-  text-decoration: none !important; 
-  color: #94b6ff !important;
-}
-.navbar-nav  li a:hover {
-  text-decoration: none; 
-  color: #3274ff !important;
-}
-/*.active-nav a{
-  text-decoration: none;
-  color: rgb(0,0,255) !important;
-}
-.dropdown-toggle, .dropdown-menu, .dropdown-menu a{
-  background-color: transparent !important;
-  border: none;
-  box-shadow: none;
-  -webkit-box-shadow: none;
-}*/
-.container-fluid{
-  margin: 0 auto;
-  padding: 0;
-}
-.bg{
-  max-width: 900px;
-  margin: 0 auto;
-  padding: 5%;
-  background-color: #ffffff;
-}
-.bg img{
-  margin: 0 auto;
-}
-#landing{
-  padding-top: 18%;
-}
-#projects{
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 5%;
-  padding-top: 100px;
-  background-color: #ffffff;
-}
-#contact{
-  margin-top: 100px;
-}
+#about span, #contact span {color: #ffffff;}
+#projects span {color: #757b8a;}
+
+/* navbar */
+#myNavbar, #navDemo {color: #94b6ff !important; padding: 2% 3%; font-size: 16px; letter-spacing: 0.1em;}
+.w3-bar-item {text-decoration: none !important; color: #94b6ff !important;}
+.w3-bar-item li a {text-decoration: none !important; color: #94b6ff !important;}
+.w3-bar-item li a:hover {text-decoration: none; color: #3274ff !important;}
+
+/* footer */
+.pager {max-width: 800px; margin: 0 auto; margin-bottom: 10%;}
+.up {margin-right: 10%}
+.up a {font-size: 36px;}
+footer {margin-top: 5%; padding: 8%; background-color: #f0f0f0;}
+footer a {font-size: 36px;}
+footer p {font-size: 12px;}
+
+/* container */
+.bg {max-width: 900px; margin: 0 auto; padding: 10% 5%; background-color: #ffffff;}
+.bg-l {max-width: 1200px;}
+.bg img, .bg-l img {margin: 0 auto; padding-bottom: 5%;}
+#landing {max-width: 800px; padding:22% 5%;}
+#landing h1 {color:#3274ff; font-size: 36px; line-height: 40px}
+
+/* container on thumbnails */
 .grid {
   -webkit-column-count: 3; /* Chrome, Safari, Opera */
   -moz-column-count: 3; /* Firefox */
@@ -106,40 +53,38 @@ a:hover, a:active {
   -moz-column-width: 350px; /* Firefox */
   column-width: 350px;
 }
-.grid-item {
-  display: inline-block;
-  margin: 0 auto;
-  padding: 2%;
-}
-/*.grid-item img {
-  margin: 0 auto;
-  padding-top: 10%;
-  padding-bottom: 0;
-}*/
-footer{
-  margin-top: 10%;
-  padding: 5%;
-  background-color: #f0f0f0;
-}
+.grid-item {display: inline-block;margin: 0 auto;padding: 2%;}
 
-/*----------Projects----------*/
-.bg-project {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 5%;
-  background-color: #ffffff;
-}
-.bg-project img{
-  margin: 0 auto;
-}
-.project-title {
-  padding-top: 100px;
-}
-.project-title h2{
-  color: #3274ff;
-}
+/* Mockup Page */
+.mockup {padding: 5%; background-color: #f0f0f0;}
 
-.mockup{
-  padding: 5%;
-  background-color: #f0f0f0;
+
+
+/* w3 styling */
+.bgimg-1, .bgimg-2, .bgimg-3  {
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bgimg-1 {
+    background-image: url("../img/cover-1.png");
+    min-height: 75%;
+}
+.bgimg-2 {
+    background-image: url("../img/cover-2.jpg");
+    min-height: 75%;
+}
+.bgimg-3 {
+    background-image: url("../img/cover-3.png");
+    min-height: 75%;
+}
+.w3-wide {letter-spacing: 10px;}
+.w3-hover-opacity {cursor: pointer;}
+
+/* Turn off parallax scrolling for tablets and phones */
+@media only screen and (max-device-width: 1024px) {
+    .bgimg-1, .bgimg-2 {
+        background-attachment: scroll;
+    }
 }

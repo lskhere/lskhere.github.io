@@ -1,121 +1,213 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Suki Lau • Data + Graphics</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <!--Bootstrap-->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
-  <!--css file-->
-  <link rel="stylesheet" type="text/css" href="css/style.css">
-  <!-- js file -->  
-  <script src="js/script.js"></script>
-  <!--font-->
-  <link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<title>Suki Lau • Data + Graphics</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- W3 Link -->
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<!-- Bootstrap Link -->
+<!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script> -->
+<!-- css file -->
+<link rel="stylesheet" type="text/css" href="css/style.css">
+<!-- js file -->  
+<script src="js/script.js"></script>
+<!-- font -->
 <link href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet">
-  <!--browser icon-->
-  <link rel="icon" href="img/icon.png">
-  <!--Google Analytics-->
-  <script>
-    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-    ga('create', 'UA-82894548-1', 'auto');
-    ga('send', 'pageview');
-  </script>
-
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<!-- browser icon -->
+<link rel="icon" href="img/icon.png">
+<!-- Google Analytics -->
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-82894548-1', 'auto');
+  ga('send', 'pageview');
+</script>
 </head>
-<body id="home" data-spy="scroll" data-target=".navbar" data-offset="50">
+<body id="home">
 
-<!--Header-->
-<header>
-<nav class="navbar navbar-default navbar-fixed-top">
-  <div class="container-fluid">
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <ul class="navbar-brand"><a href="index.html">SUKI LAU</a></ul>
-    </div>
-    <div class="collapse navbar-collapse" id="myNavbar">
-      <ul class="nav navbar-nav navbar-right">
-        <li><a href="#projects">Projects</a></li>
-        <li><a href="#contact">Contact Me</a></li>
-      </ul>
-    </div>
+
+
+<!-- Navbar -->
+<div class="w3-top">
+  <div class="w3-bar" id="myNavbar">
+    <a class="w3-bar-item w3-button w3-hover-black w3-hide-medium w3-hide-large w3-right" href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+    <a href="#home" class="w3-bar-item ">SUKI LAU</a>
+    <a href="#contact" class="w3-bar-item w3-hide-small w3-right">Contact</a>
+    <a href="#projects" class="w3-bar-item w3-hide-small w3-right">Projects</a>
+    <a href="#about" class="w3-bar-item w3-hide-small w3-right">About</a>
   </div>
-</nav>
-</header>
 
-<!--Main-->
-<main>
-<div class="container-fluid bg text-center" id="landing">
-  <h1 style="color:#3274ff">Suki Lau is an illustrator and dataviz designer.</h1><br/>  
-  <p>I am a Hong Kong illustrator/designer based in Salt Lake City, specializing in illustrations, infographics and data visualisation. I like telling stories with data and graphics. I started working with data and graphics 6 years ago as a statistician and amateur illustrator. I believe that bridging analytic and aesthetic would enhance communication and eventually enable people to better their lives.</p>  
-</div>
-
-<div class="container-fluid text-center" id="projects">
-  <h2>Some Projects I've Worked On</h2><br/>
-  <div class="grid">
-
-    <div class="grid-item">
-      <a href="projects/chachaanteng.html"><img src="img/chachaanteng-01-s.png" class="img-responsive" alt="image" width="300px"></a>
-    </div>
-
-    <div class="grid-item">
-      <a href="projects/icecream-truck.html"><img src="img/icecream-truck-02-s.png" class="img-responsive" alt="image" width="300px"></a>
-    </div>
-    
-    <div class="grid-item">
-      <a href="projects/cr-branding.html"><img src="img/cr.png" class="img-responsive" alt="image" width="300px"></a>
-    </div>
-
-    <div class="grid-item">
-      <a href="projects/icon-senses.html"><img src="img/icon-senses-02-s.png" class="img-responsive" alt="image" width="300px"></a>
-    </div>
-
-    <div class="grid-item">
-      <a href="projects/icon-hand.html"><img src="img/icon-hand-07.png" class="img-responsive" alt="image" width="300px"></a>
-    </div>
-
-    <div class="grid-item">
-      <a href="projects/infographics.html"><img src="img/infographics/worldStat.jpg" class="img-responsive" alt="image"width="300px"></a>
-    </div>
-
-    <div class="grid-item">
-      <a href="projects/typographic-poster.html"><img src="img/typographic-poster/typographic-poster.png " class="img-responsive" alt="image" width="300px"></a>
-    </div>
-
-    <div class="grid-item">
-      <a href="projects/pattern.html"><img src="img/pattern/pattern.jpg"  class="img-responsive" alt="image" width="300px"></a>
-    </div>
-
-<!--     <div class="grid-item">
-      <a href="projects/logo.html"><img src="img/logo/butcher-shop-logo-s.png" class="img-responsive" alt="image" width="300px"></a>
-    </div> -->
+  <!-- Navbar on small screens -->
+  <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium">
+    <a href="#about" class="w3-bar-item" onclick="toggleFunction()">About</a>
+    <a href="#projects" class="w3-bar-item" onclick="toggleFunction()">Projects</a>
+    <a href="#contact" class="w3-bar-item" onclick="toggleFunction()">Contact</a>
   </div>
 </div>
 
-<div class="container-fluid bg text-center" id="contact">
-  <h2>How to Reach Me</h2><br/>
-  <p>You can email me at <a href="mailto:sukilauhk@gmail.com">sukilauhk@gmail.com</a>.</p>
-  <p>If you have a sweet project or just want to say hello, feel free to get in touch! I will gladly take on projects from anywhere in the world. A detailed CV and portfolio are available upon request.</p>
+
+
+<!-- Landing -->
+<div class="w3-content w3-container w3-center bg" id="landing">
+  <h1>Suki Lau is an illustrator and dataviz designer.</h1>
+  <p><em>Illustraion • Infographics •  Data Visualization</em></p>
 </div>
-</main>
+
+
+
+<!-- About -->
+<div class="bgimg-1 w3-display-container w3-opacity-min" id="about">
+  <div class="w3-display-middle">
+    <span class="w3-xxlarge w3-wide">ABOUT</span>
+  </div>
+</div>
+
+<div class="w3-content w3-container w3-align-left bg">
+  <h2 class="w3-center">MY STORY</h2><br>
+  <p class="w3-center">I am a Hong Kong illustrator / designer based in Salt Lake City, specializing in illustrations, infographics and data visualisation. I like telling stories with data and graphics. I started working with data and graphics 6 years ago as a statistician and amateur illustrator. I believe that bridging analytic and aesthetic would enhance communication and eventually enable people to better their lives.</p><br/>
+
+  <h2 class="w3-center">SKILLS</h2><br>
+  <p><i class="fa fa-photo"></i> Adobe Illustrator</p>
+  <div class="w3-light-grey">
+    <div class="w3-container w3-padding-small w3-blue w3-center" style="width:90%">90%</div>
+  </div>
+  <p><i class="fa fa-photo"></i> Adobe InDesign</p>
+  <div class="w3-light-grey">
+    <div class="w3-container w3-padding-small w3-blue w3-center" style="width:80%">80%</div>
+  </div>
+  <p><i class="fa fa-photo"></i> Adobe Photoshop</p>
+  <div class="w3-light-grey">
+    <div class="w3-container w3-padding-small w3-blue w3-center" style="width:70%">70%</div>
+  </div>
+  <p><i class="fa fa-laptop"></i> Data Visualization</p>
+  <div class="w3-light-grey">
+    <div class="w3-container w3-padding-small w3-blue w3-center" style="width:80%">80%</div>
+  </div>
+  <p><i class="fa fa-laptop"></i> Web Design</p>
+  <div class="w3-light-grey">
+    <div class="w3-container w3-padding-small w3-blue w3-center" style="width:60%">60%</div>
+  </div>
+
+</div>
+
+<!-- <div class="w3-row w3-center w3-blue w3-padding-16">
+  <div class="w3-quarter w3-section">
+    <span class="w3-xlarge">14+</span><br>
+    Partners
+  </div>
+  <div class="w3-quarter w3-section">
+    <span class="w3-xlarge">55+</span><br>
+    Projects Done
+  </div>
+  <div class="w3-quarter w3-section">
+    <span class="w3-xlarge">89+</span><br>
+    Happy Clients
+  </div>
+  <div class="w3-quarter w3-section">
+    <span class="w3-xlarge">150+</span><br>
+    Meetings
+  </div>
+</div> -->
+
+
+
+<!-- Projects -->
+<div class="bgimg-2 w3-display-container w3-opacity-min" id="projects">
+  <div class="w3-display-middle">
+    <span class="w3-xxlarge w3-wide">PROJECTS</span>
+  </div>
+</div>
+
+<div class="w3-content w3-container w3-center bg bg-l">
+  <h2 class="w3-center">Recent Projects</h2>
+  <div class="w3-row w3-padding-32 w3-section">
+    <div class="grid">
+      <div class="grid-item">
+        <a href="projects/chachaanteng.html"><img src="img/thumbnail/hkfood-s1.png" class="img-responsive" alt="image" width="300px"></a>
+      </div>
+
+      <div class="grid-item">
+        <a href="projects/icecream-truck.html"><img src="img/thumbnail/hkfood-s2.png" class="img-responsive" alt="image" width="300px"></a>
+      </div>
+      
+      <div class="grid-item">
+        <a href="projects/cr-branding.html"><img src="img/thumbnail/cr-s1.png" class="img-responsive" alt="image" width="300px"></a>
+      </div>
+
+      <div class="grid-item">
+        <a href="projects/icon-senses.html"><img src="img/thumbnail/icon-s1.png" class="img-responsive" alt="image" width="300px"></a>
+      </div>
+
+      <div class="grid-item">
+        <a href="projects/icon-hand.html"><img src="img/thumbnail/icon-s2.png" class="img-responsive" alt="image" width="300px"></a>
+      </div>
+
+      <div class="grid-item">
+        <a href="projects/infographics.html"><img src="img/thumbnail/info-s1.jpg" class="img-responsive" alt="image"width="300px"></a>
+      </div>
+
+      <div class="grid-item">
+        <a href="projects/pattern.html"><img src="img/thumbnail/pattern.jpg"  class="img-responsive" alt="image" width="300px"></a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- <div class="w3-content w3-container w3-padding-64 w3-center">
+  <h2 class="w3-center">Some Projects I've Worked On</h2>
+  <div class="w3-row w3-padding-32 w3-section">
+    <div class="w3-row-padding w3-center">
+      <div class="w3-col m4"><a href="projects/chachaanteng.html"><img src="img/content/chachaanteng-01-s.png" style="width:100%" class="w3-hover-opacity" alt="image"</a></div>
+      <div class="w3-col m4"><a href="projects/chachaanteng.html"><img src="img/content/chachaanteng-01-s.png" style="width:100%" class="w3-hover-opacity" alt="image"</a></div>
+      <div class="w3-col m4"><a href="projects/chachaanteng.html"><img src="img/content/chachaanteng-01-s.png" style="width:100%" class="w3-hover-opacity" alt="image"</a></div>
+    </div><br/>
+  </div>
+</div> -->
+
+
+<!-- Modal for full size images on click-->
+<!-- <div id="modal01" class="w3-modal w3-black" onclick="this.style.display='none'">
+  <span class="w3-button w3-large w3-black w3-display-topright" title="Close Modal Image"><i class="fa fa-remove"></i></span>
+  <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
+    <img id="img01" class="w3-image">
+    <p id="caption" class="w3-opacity w3-large"></p>
+  </div>
+</div> -->
+
+
+
+<!-- Contact-->
+<div class="bgimg-3 w3-display-container w3-opacity-min" id="contact">
+  <div class="w3-display-middle">
+    <span class="w3-xxlarge w3-wide">CONTACT</span>
+  </div>
+</div>
+
+<div class="w3-content w3-container w3-center bg">
+  <h2>How to Reach Me</h2><br>
+  <p>If you have a sweet project or just want to say hello, feel free to get in touch! I will gladly take on projects from anywhere in the world. A detailed CV and portfolio are available upon request.</p><br>
+  <a href="mailto:sukilauhk@gmail.com"><i class="fa fa-envelope fa-fw w3-xlarge w3-margin-right"></i></a> Email: sukilauhk@gmail.com<br>
+</div>
+
+
 
 <!--Footer-->
-<footer class="text-center">
-  <p>Find me on <a href="https://www.behance.net/sukilauhk" target="_blank">BEHANCE</a> / <a href="https://www.instagram.com/urbancatcher" target="_blank">INSTAGRAM</a> / <a href="https://lskhere.tumblr.com" target="_blank">TUMBLR</a></p>
+<div class="w3-right-align up">
+  <a href="#home"><i class="fa fa-chevron-up"></i></a>
+</div>
+<footer class="w3-center">
+  <a href="https://www.behance.net/sukilauhk" target="_blank"><i class="fa fa-behance"></i></a>&#160;
+  <a href="https://www.instagram.com/urbancatcher" target="_blank"><i class="fa fa-instagram"></i></a>&#160;
+  <a href="https://lskhere.tumblr.com" target="_blank"><i class="fa fa-tumblr"></i></a>&#160;
   <p>Copyright 2017 by Suki Lau</p>
-  <a href="#home"><span class="glyphicon glyphicon-menu-up"></span></a>
 </footer>
 
 </body>
 </html>
-
