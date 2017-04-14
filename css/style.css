@@ -17,8 +17,7 @@ a, a:link, a:visited  {text-decoration: none; color: #94b6ff;
 }
 a:hover, a:active {text-decoration: none; color: #3274ff !important;
 }
-#about span, #contact span {color: #ffffff;}
-#projects span {color: #757b8a;}
+#about span, #contact span,#projects span  {color: #ffffff;}
 
 /* navbar */
 #myNavbar, #navDemo {color: #94b6ff !important; padding: 2% 3%; font-size: 16px; letter-spacing: 0.1em;}
@@ -72,7 +71,7 @@ footer p {font-size: 12px;}
     min-height: 75%;
 }
 .bgimg-2 {
-    background-image: url("../img/cover-2.jpg");
+    background-image: url("../img/cover-2.png");
     min-height: 75%;
 }
 .bgimg-3 {
