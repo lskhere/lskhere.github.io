@@ -20,7 +20,7 @@
 <body id="home">
 
 
-  
+
 <!-- Navbar -->
 <div class="w3-top">
   <div class="w3-bar" id="myNavbar">
@@ -43,20 +43,40 @@
 
 <!-- Artwork -->
 <div class="w3-content w3-container w3-center bg">
-  <h2>Icon Design</h2>
-  <h3>Graphics</h3>
-  <img src="../img/icon/icon-hand-01.png"  alt="image" style="width:100%; max-width:800px"><br/>
+  <h2>Typographic Posters</h2>
+  <h4>poster design</h4>
+  <p>a collection of poster design for events and for fun</p>
 </div>
 
+<div class="w3-content w3-container w3-padding-64 w3-center">
+  <div class="w3-row">
+    <div class="w3-third">
+      <img src="../img/poster/poster-01.png"  style="width:100%" onclick="onClick(this)" class="w3-hover-opacity w3-padding" alt="two moons (live on 13 april)">
+    </div>
+
+    <div class="w3-third">
+      <img src="../img/poster/poster-02.png"  style="width:100%" onclick="onClick(this)" class="w3-hover-opacity w3-padding" alt="one more time, one more chance">
+    </div>
+
+    <div class="w3-third">
+      <img src="../img/poster/poster-03.png"  style="width:100%" onclick="onClick(this)" class="w3-hover-opacity w3-padding" alt="last smile">
+    </div>
+  </div>
+</div>
+
+
+<!-- full size images on click-->
+<div id="modal01" class="w3-modal w3-black" onclick="this.style.display='none'">
+  <span class="w3-button w3-large w3-black w3-display-topright" title="Close Modal Image"><i class="fa fa-remove"></i></span>
+  <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
+    <img id="img01" class="w3-image">
+    <p id="caption" class="w3-opacity w3-large"></p>
+  </div>
+</div>
 
 
 <!--Footer-->
-<div class="w3-bar w3-round pager">
-  <a href="icon-senses.html" class="w3-button">&#10094; Previous</a>
-  <a href="infographics.html" class="w3-button w3-right">Next &#10095;</a>
-</div>
-<br>  
-
+<br>
 <div class="w3-right-align up">
   <a href="#home"><i class="fa fa-chevron-up"></i></a>
 </div>

@@ -40,24 +40,39 @@
 </div>
 
 
-
 <!-- Artwork -->
 <div class="w3-content w3-container w3-center bg">
-  <h2>World Statistics at a Glance</h2>
-  <h3>Infographics</h3>
-  <img src="../img/infographics/worldStat.jpg" alt="image" style="width:100%; max-width:600px"><br/>
+  <h2>Infographics + Data Viz</h2>
+  <h4>infographics / data visualization / illustration</h4>
+  <p>a collection of infographics and data visualization</p>
 </div>
 
+<!-- <div class="w3-content w3-container w3-center">
+  <div class="w3-row">
+    <div class="w3-half">
+    </div>
+    <div class="w3-half">
+    </div>
+  </div>
+</div> -->
+<div class="w3-content w3-container w3-center">
+  <img src="../img/infographics/nuclearPower.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity w3-padding" alt="image">
+  <img src="../img/infographics/worldStat.jpg" style="width:100%; max-width:600px" onclick="onClick(this)" class="w3-hover-opacity w3-padding" alt="image">
+</div>
+
+
+<div id="modal01" class="w3-modal w3-black" onclick="this.style.display='none'">
+  <span class="w3-button w3-large w3-black w3-display-topright" title="Close Modal Image"><i class="fa fa-remove"></i></span>
+  <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
+    <img id="img01" class="w3-image">
+    <p id="caption" class="w3-opacity w3-large"></p>
+  </div>
+</div>
 
 
 
 <!--Footer-->
-<!-- <div class="w3-bar w3-round pager">
-  <a href="icon-hand.html" class="w3-button">&#10094; Previous</a>
-  <a href="pattern.html" class="w3-button w3-right">Next &#10095;</a>
-</div>
-<br>   -->
-
+<br>
 <div class="w3-right-align up">
   <a href="#home"><i class="fa fa-chevron-up"></i></a>
 </div>
